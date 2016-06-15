@@ -51,5 +51,4 @@ VOLUME /letsencrypt/wellknown
 # the domains.txt file).
 # ENV ACCOUNTS=/letsencrypt/config/accounts
 
-ENTRYPOINT /bin/bash
-#ENTRYPOINT /letsencrypt/bin/run.sh
+ENTRYPOINT /letsencrypt/bin/run.sh
